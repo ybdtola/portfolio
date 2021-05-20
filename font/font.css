@@ -1,0 +1,12 @@
+@font-face {
+    font-family: Rubik;
+    src: url("../Rubik/Rubik-ExtraBold.ttf");
+}
+@font-face {
+    font-family: RubikMedium;
+    src: url("../Rubik/Rubik-Medium.ttf");
+}
+@font-face {
+    font-family: RubikRegular;
+    src: url("../Rubik/Rubik-Regular.ttf");
+}
