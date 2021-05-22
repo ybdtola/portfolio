@@ -587,7 +587,7 @@ footer{
     text-decoration: none;
     cursor: pointer;
     font-size: 20px;
-    color: #1d2c7e;
+    color: #fff;
     bottom: 0;
     right: 0;
     margin-right: 30px;
@@ -608,5 +608,8 @@ footer{
 }
 .copyright{
     font-size: .8em;
+    letter-spacing: 2px;
+}
+.profile-footer span{
     letter-spacing: 2px;
 }
