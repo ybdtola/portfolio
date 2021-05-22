@@ -6,7 +6,7 @@ html{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: monospace;
+    font-family: 'RubikRegular';
 }
 body{
     background-color: #ecdec8;
@@ -20,9 +20,9 @@ body{
     overflow-x: hidden;
 }
 header{
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
-    background: url('./images/hero3.png') no-repeat 25% bottom fixed;
+    background: url('./images/hero3.png') no-repeat 25% 100% fixed;
     background-size: 45%;
     background-blend-mode: overlay;
 }
@@ -127,6 +127,8 @@ section#about .title h2{
     text-align: center;
     font-family: 'RubikRegular';
     font-size: 16px;
+    letter-spacing: 1.2px;
+    line-height: 1.5;
 }
 section#about article{
     /* max-width: 60%; */
@@ -146,6 +148,8 @@ section#about article{
     padding: 20px;
     margin: 20px;
     background-color: #eee;
+    /* cursor: pointer; */
+    -webkit-tap-highlight-color: transparent;
 }
 .image-box.ps{
     display: none;
@@ -308,7 +312,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.1em;
+    font-size: .8em;
     letter-spacing: 2px;
 }
 .fixed-nav .links-container ul li > a{
@@ -339,46 +343,53 @@ footer{
     padding: 10px;
     cursor: pointer;
     background: linear-gradient(-180deg, #252a4749 0%, #ffffff00 10%, #252a475c 90%);
-    width: 50%;
+    width: 60%;
     border-radius: 50px;
     box-shadow: 0 1rem 1.25rem 0 #252a47 inset;
     padding-top: 25px;
     transition: all .3s ease-in;
     font-size: xx-small;
     /* line-height: 2.75rem; */
+    -webkit-tap-highlight-color: transparent;
+    transform: scale(1);
 }
 
-#hero-btn::after{
+/* #hero-btn::after{
     content: 'CONNECT';
-    /* font-size: 1.3em; */
-}
+} */
 #hero-btn:hover{
     background: linear-gradient(-180deg, #ffffff92 0%, #f8f5f500 20%, #ffffff00 80%, #ffffff92 100%);
     box-shadow: none;
-    transform: translateY(-7px);
-    padding-top: 10px;
+    transform: scale(.9);
+    padding-top: 15px;
 }
-#hero-btn:hover::after{
-    /* content: 'Shoot me an email📧';
-    font-size: 1.3em; */
+/* #hero-btn:hover::after{
     content: 'CONNECT📧';
-    /* font-size: 1.3em; */
-}
-#hero-btn > a, #hero-btn::after, #hero-btn:hover::after{
+} */
+ a#hero-btn, #hero-btn::after, #hero-btn:hover::after{
     text-decoration: none;
     color: #1d2c7e;
-    font-family: 'Roboto';
-    font-weight: 900;
+    font-family: 'RubikMedium';
+    font-weight: bold;
     letter-spacing: 2px;
-    font-size: 1.5em;
+    font-size: 0.9em;
+    text-align: center;
 }
 
 .subscribe{
-  
+    background-color: #930e0ee8;
+    width: 12px;
+    color: #fff;
     position: fixed;
     top: calc(100vh - 65vh);
-    left: 95%;
-    opacity: 0;
+    z-index: 9999;
+    /* left: 95%; */
+    visibility: hidden;
+    /* opacity: 0; */
+    transition: all 0.5s .2s;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: .9em;
   }
   .hide-sub{
     background-color: #930e0ee8;
@@ -387,11 +398,12 @@ footer{
     position: fixed;
     z-index: 9999;
     top: calc(100vh - 65vh);
-    left: 0;
-    opacity: 1;
+    left: 0%;
+    visibility: visible;
     transition: all 0.5s .2s;
     cursor: pointer;
     font-weight: bold;
+    -webkit-tap-highlight-color: transparent;
   }
   .show-clox{
     background-color: #930e0ee8;
@@ -408,16 +420,21 @@ footer{
     text-align: center;
     font-weight: bold;
     padding: 5px 0;
+    -webkit-tap-highlight-color: transparent;
+    font-size: .9em;
   }
   .clox{
       visibility: hidden;
       transition: all 0.5s ease .05s;
+      font-size: .9em;
   }
  
   
-  .aside *{
+  .profile-container *{
     font-size: 1.05em;
+    line-height: 1.5;
   }
+
   .register{
     background: linear-gradient(225deg, #001732 40%, #09090a 65%);
     width: 40%;
@@ -484,6 +501,7 @@ footer{
   }
   .profile-content h2{
     font-size: 24px;
+    letter-spacing: 3px;
   }
   .profile-content p{
     font-size: 14px;
@@ -510,10 +528,11 @@ footer{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    
+    -webkit-tap-highlight-color: transparent;
 }
   .profile-resume{
     margin-top: 100px;
+    -webkit-tap-highlight-color: transparent;
   }
   .profile-resume a{
       cursor: pointer;
@@ -578,6 +597,7 @@ footer{
     /* border: 1px inset #1d2c7e; */
     transition: all .5s linear;
     visibility: hidden;
+    -webkit-tap-highlight-color: transparent;
 }
 .show-link{
     visibility: visible;
@@ -585,4 +605,8 @@ footer{
 }
 .top-link:hover{
     transform: translateY(-7px);
+}
+.copyright{
+    font-size: .8em;
+    letter-spacing: 2px;
 }

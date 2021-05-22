@@ -40,6 +40,7 @@
         z-index: 999;
         /* margin-right: 2%; */
         /* background-color: #a2a2a2; */
+        -webkit-tap-highlight-color: transparent;
     }
     
     .links-container {
@@ -59,6 +60,7 @@
         left: 0;
         background-color: #fff;
         transition: all .5s ease;
+        -webkit-tap-highlight-color: transparent;
     }
     /* .links-container.showlinks{
     } */
@@ -91,8 +93,8 @@
         display: block;
         color: #000;
         cursor: pointer;
-        font-family: monospace;
-        font-size: 1.1em;
+        font-family: 'RubikRegular';
+        font-size: .8em;
         /* transition: all .5s ease; */
     }
     .links-container ul{
@@ -128,6 +130,7 @@
         z-index: 10;
         padding: 5px 0;
         cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
     }
     .menu-icons span{
         height: 3px;

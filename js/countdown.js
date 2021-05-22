@@ -123,7 +123,7 @@ const snapshot = [
         
         display.querySelectorAll('div').forEach(box => box.style.borderColor = 'limegreen');
 
-        endtime.innerHTML = `<h1 style='font-size: 28px; color:red; text-align: center'>COMING SOON</h1>`;
+        endtime.innerHTML = `<h1 style='font-size: 28px; color:limegreen; text-align: center'>COMING SOON</h1>`;
     }else{
         msgBox.innerHTML = 'Projects loading...';
     
