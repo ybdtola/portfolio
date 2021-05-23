@@ -144,6 +144,8 @@ const register = document.querySelector('.register');
 const sub = document.querySelector('.subscribe');
 const xx = document.querySelector('.clox');
 const profile = document.querySelector('#profile');
+
+
 sub.addEventListener('click', () => {
     register.classList.toggle('show-register');
     sub.classList.toggle('hide-sub');
@@ -163,3 +165,9 @@ profile.addEventListener('click', () => {
     linksContainer.style.height = 0;
     navToggle.classList.toggle('clicked');
 });
+
+/* document.body.addEventListener('click', (e) => {
+    if (e.target === document.body) {
+      document.body.classList.toggle('dark-mode')
+    }
+  }); */
