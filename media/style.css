@@ -3,7 +3,7 @@
 /* media query */
 @media screen and (max-width: 576px) {
     header{
-        background-size: 100%;
+        /* background-size: 100%; */
     }
     nav {
         background-color: #fff;
