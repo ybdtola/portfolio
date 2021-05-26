@@ -197,7 +197,7 @@
 }
 @media screen and (min-width: 280px) and (max-width: 320px){
     header{
-        background-size: 140%;
+        /* background-size: 140%; */
         /* opacity: .99; */
     }
     .container h1.show-name{
@@ -222,7 +222,7 @@
 
 @media screen and (min-width: 321px) and (max-width: 345px){
     header{
-        background-size: 130%;
+        /* background-size: 130%; */
         /* opacity: .99; */
     }
     .container h1.show-name{
@@ -238,7 +238,7 @@
         grid-template-rows: 100vh 150vh 100vh 50px;
     }
     header{
-        background-size: 70%;
+        /* background-size: 70%; */
         /* opacity: .99; */
     }
     /* .container {
