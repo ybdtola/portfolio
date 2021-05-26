@@ -46,14 +46,14 @@ nav{
     top: 0;
     z-index: 99; */
 }
-/* #pt_container{
+#pt_container{
     width: 100vw;
     height: 100vh !important;
     position: relative;
     left: 0;
     top: 0;
     z-index: 2;
-} */
+}
 
 
 
