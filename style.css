@@ -40,7 +40,7 @@ nav{
 }
 #pt_container_container{
     width: 100%;
-    min-height: 90vh !important;
+    min-height: 100vh;
     position: absolute;
     /* left: 0;
     top: 0;
