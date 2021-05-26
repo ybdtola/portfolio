@@ -228,7 +228,7 @@
     }
     .container h1.show-name{
         visibility: visible;
-        height: 120px;
+        height: 90px;
     }
     /* .container {
         z-index: -1;
@@ -339,7 +339,7 @@
 @media screen and (min-width: 346px) and (max-width: 432px){
 .container h1.show-name{
     visibility: visible;
-    height: 130px;
+    height: 120px;
 }
 }
 @media screen and (min-width: 433px) and (max-width: 576px){
