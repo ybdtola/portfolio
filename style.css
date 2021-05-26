@@ -348,7 +348,7 @@ footer{
     max-width: 500px;
     /* width: 45%; */
     margin: 0 auto;
-    overflow: hidden;
+    /* overflow: hidden; */
     height: 390px;
     /* max-height: 54vw; */
 }
