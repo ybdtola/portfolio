@@ -16,7 +16,7 @@ Pts.quickStart( "#pt_container", "#ffffff00" );
       
       // Create particles and hit them with a random impulse
       for (let i=0, len=pts.length; i<len; i++) {
-        let p = new Particle( pts[i] ).size( (i===0) ? 20 : 3+Math.random()*space.size.x/25 );
+        let p = new Particle( pts[i] ).size( (i===0) ? 20 : 3+Math.random()*space.size.x/50 );
         p.hit( Num.randomRange(-50,50), Num.randomRange(-25, 25) );
         world.add( p );
       }
@@ -28,7 +28,7 @@ Pts.quickStart( "#pt_container", "#ffffff00" );
 
     animate: (time, ftime) => {
       world.drawParticles( (p, i) => {
-        let color = (i===0) ? "#1d2c7e" : ["#ecdec8", "#ecdec8", "#ecdec8", "#ecdec8"][i%4];
+        let color = (i===0) ? "#1d2c7e77" : ["#ecdec8", "#ecdec8", "#ecdec8", "#ecdec8"][i%4];
         // let radius = Num.cycle( (time%1000)/1000 ) * 20;
         form.fillOnly( color ).point( p, p.radius, "circle" ) 
       });
