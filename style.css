@@ -9,7 +9,7 @@ html{
     font-family: 'RubikRegular';
 }
 body{
-    background-color: #ecdec8;
+    background-color: #ffefd5;/* #ecdec8; */ /* #E6E6FA */
     display: grid;
     grid-template-areas: "header header header header header header header header header header header header"
                          "about about about about about about about about about about about about "
@@ -20,11 +20,11 @@ body{
     overflow-x: hidden;
 }
 header{
-    /* height: 100vh; */
+    height: 100vh;
     width: 100%;
-    background: url('./images/hero3.png') no-repeat 25% 100% fixed;
+    /* background: url('./images/hero3.png') no-repeat 25% 100% fixed;
     background-size: 45%;
-    background-blend-mode: overlay;
+    background-blend-mode: overlay; */
 }
 nav{
     background: transparent;
@@ -35,8 +35,23 @@ nav{
     height: 56px;
     box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 3px 0px;
     transition: all .5s ease-in;
+    z-index: 999999;
 }
-
+#pt_container{
+    width: 100vw;
+    height: 100vh !important;
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+#pt_container_container{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99;
+}
 /* a:link
 a:visited
 a:hover
@@ -48,7 +63,7 @@ a:active
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 999;
+    z-index: 999999;
     width: 100%;
     height: 56px;
 }
@@ -323,6 +338,8 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 99999;
     /* width: 45%; */
 }
 .container h1{
@@ -382,7 +399,7 @@ footer{
     color: #fff;
     position: fixed;
     top: calc(100vh - 65vh);
-    z-index: 9999;
+    z-index: 9999999999;
     /* left: 95%; */
     visibility: hidden;
     /* opacity: 0; */
@@ -410,7 +427,7 @@ footer{
     width: 12px;
     color: #fff;
     position: fixed;
-    z-index: 9999;
+    z-index: 9999999999;
     top: calc(100vh - 62vh);
     left: 40%;
     /* opacity: 1; */
@@ -446,7 +463,7 @@ footer{
     transition: all 0.5s .2s;
     transform: translateX(0%);
     position: fixed;
-    z-index: 99999;
+    z-index: 9999999999;
   }
   .profile-container{
     position: relative;
