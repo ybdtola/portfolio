@@ -225,6 +225,10 @@
         background-size: 130%;
         /* opacity: .99; */
     }
+    .container h1.show-name{
+        visibility: visible;
+        height: 120px;
+    }
     /* .container {
         z-index: -1;
     } */
@@ -269,7 +273,7 @@
         max-width: 300px;
     }
     .container h1{
-        font-size: 15vw;
+        font-size: 13vw;
     }
     .image-box {
         width: 100px;
@@ -319,7 +323,7 @@
     }
     
 #hero-btn{
-    width: 100%;
+    width: 70%;
 }
 }
 @media screen and (min-width: 280px) and (max-width: 432px){
@@ -330,4 +334,16 @@
     .profile-resume {
         margin-top: 50px;
     }
+}
+@media screen and (min-width: 346px) and (max-width: 432px){
+.container h1.show-name{
+    visibility: visible;
+    height: 130px;
+}
+}
+@media screen and (min-width: 433px) and (max-width: 576px){
+.container h1.show-name{
+    visibility: visible;
+    height: 180px;
+}
 }
