@@ -324,7 +324,7 @@
     }
     
 #hero-btn{
-    max-width: 340px;
+    min-width: 250px;
 }
 }
 @media screen and (min-width: 280px) and (max-width: 432px){
