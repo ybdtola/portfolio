@@ -203,7 +203,7 @@
     }
     .show-clox{
         left: 50%;
-        z-index: 999999;
+        z-index: 9999999999;
         text-align: center;
     }
 }
@@ -236,7 +236,7 @@
     }
     .show-clox{
         left: 60%;
-        z-index: 999999;
+        z-index: 9999999999;
         text-align: center;
     }
     .image-box.ps{
@@ -274,7 +274,7 @@
     }
     .show-clox{
         left: calc(100vw - 4vw);
-        z-index: 999999;
+        z-index: 9999999999;
         text-align: center;
     }
     .image-box{
