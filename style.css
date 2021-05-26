@@ -42,9 +42,9 @@ nav{
     width: 100%;
     min-height: 100vh;
     position: absolute;
-    /* left: 0;
+    left: 0;
     top: 0;
-    z-index: 99; */
+    z-index: 99;
 }
 #pt_container{
     width: 100vw;
@@ -52,7 +52,7 @@ nav{
     position: relative;
     left: 0;
     top: 0;
-    z-index: 2;
+    /* z-index: 2; */
 }
 
 
