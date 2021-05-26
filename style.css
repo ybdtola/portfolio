@@ -355,6 +355,7 @@ footer{
     height: 450px;
     margin: 0 auto;
     max-height: 60vw;
+    bottom: 80px;
 }
 .container h1{
     font-family: 'Rubik', sans-serif;
