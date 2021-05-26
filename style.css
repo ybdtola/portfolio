@@ -27,7 +27,6 @@ header{
     /* background: url('./images/hero3.png') no-repeat 25% 100% fixed;
     background-size: 45%;
     background-blend-mode: overlay; */
-    position: relative;
 }
 nav{
     background: transparent;
@@ -40,19 +39,24 @@ nav{
     transition: all .5s ease-in;
     z-index: 999999;
 }
-#pt_container{
-    position: relative;
+#pt_container_canvas{
     width: 100vw;
     min-height: 100vh;
-}
-
-#pt_container_canvas{
     position: absolute;
-    width: calc(100% - 56px) !important;
-    height: calc(100% - 56px) !important;
     left: 0;
     top: 56px;
+    /* top: 56px; */
+    z-index: 99999;
 }
+#pt_container{
+    /* width: 100vw; */
+    /* height: 100vh !important; */
+    /* position: relative;
+    left: 0;
+    top: 0; */
+    /* z-index: 2; */
+}
+
 
 
 /* a:link
@@ -76,8 +80,6 @@ div.banner{
     width: 100vw;
     place-items: center;
     color: #fff;
-    position: absolute;
-    top: 0;
 }
 .flex{
     margin-bottom: 20px;
@@ -347,10 +349,6 @@ footer{
     z-index: 99999;
     max-width: 500px;
     /* width: 45%; */
-    margin: 0 auto;
-    /* overflow: hidden; */
-    height: 390px;
-    /* max-height: 54vw; */
 }
 .container h1{
     font-family: 'Rubik', sans-serif;
@@ -360,6 +358,8 @@ footer{
     text-align: center;
     font-size: 7vw;
     font-weight: 900;
+    cursor: grab;
+    -webkit-tap-highlight-color: none;
 }
 
 #hero-btn{
