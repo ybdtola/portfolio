@@ -352,9 +352,9 @@ footer{
     max-width: 60vw;
     width: 600px;
     position: relative;
-    height: 450px;
+    /* height: 450px; */
     margin: 0 auto;
-    max-height: 60vw;
+    /* max-height: 60vw; */
     bottom: 80px;
 }
 .container h1{
