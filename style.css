@@ -20,7 +20,7 @@ body{
     overflow-x: hidden;
 }
 header{
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     /* background: url('./images/hero3.png') no-repeat 25% 100% fixed;
     background-size: 45%;
@@ -617,6 +617,7 @@ footer{
     transition: all .5s linear;
     visibility: hidden;
     -webkit-tap-highlight-color: transparent;
+    z-index: 9999999999999;
 }
 .top-link:hover{
     background-color: rgba(255, 255, 255, 0.517);
