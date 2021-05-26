@@ -40,8 +40,8 @@ nav{
     z-index: 999999;
 }
 #pt_container_canvas{
-    width: 100vw;
-    min-height: 100vh;
+    width: 100% !important;
+    height: 100% !important;
     position: absolute;
     left: 0;
     top: 0;
@@ -349,8 +349,12 @@ footer{
     align-items: center;
     position: relative;
     z-index: 99999;
-    max-width: 500px;
-    /* width: 45%; */
+    max-width: 60vw;
+    width: 600px;
+    position: relative;
+    height: 450px;
+    margin: 0 auto;
+    max-height: 60vw;
 }
 .container h1{
     font-family: 'Rubik', sans-serif;
@@ -372,7 +376,8 @@ footer{
     padding: 10px;
     cursor: pointer;
     background: linear-gradient(-180deg, #252a4749 0%, #ffffff00 10%, #252a475c 90%);
-    width: 60%;
+    min-width: 70%;
+    max-width: 50%;
     border-radius: 50px;
     box-shadow: 0 1rem 1.25rem 0 #252a47 inset;
     padding-top: 25px;
