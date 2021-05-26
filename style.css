@@ -19,10 +19,11 @@ body{
     grid-template-rows: 100vh 100vh 100vh 50px;
     overflow-x: hidden;
     position: relative;
+    
 }
 header{
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     /* background: url('./images/hero3.png') no-repeat 25% 100% fixed;
     background-size: 45%;
     background-blend-mode: overlay; */
@@ -39,7 +40,7 @@ nav{
     z-index: 999999;
 }
 #pt_container_container{
-    width: 100%;
+    width: 100vw;
     min-height: 100vh;
     position: absolute;
     left: 0;
@@ -48,7 +49,7 @@ nav{
 }
 #pt_container{
     width: 100vw;
-    height: 92vh !important;
+    height: 100vh !important;
     position: relative;
     left: 0;
     top: 0;
@@ -73,6 +74,7 @@ a:active
     height: 56px;
 }
 div.banner{
+    scroll-snap-align: start;
     display: grid;
     min-height: 100vh;
     width: 100vw;
