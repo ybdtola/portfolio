@@ -178,10 +178,40 @@
     section#about .title{
         height: 20vh;
     }
-
+.notice{
+    width: 80vw;
+    height: auto;
+}
+.msg-box{
+    width: 50vw;
+    font-size: 4vw;
+    height: auto;
+}
+code h1{
+    font-size: 6vw !important;
+}
 
 }
 
+@media screen and (min-width: 280px) and (max-width: 768px){
+    .deadline {
+    
+        width: 90vw;
+    }
+    #arena {
+        height: 25vw;
+    }
+    
+    .deadline-format > h1 {
+        font-size: 10.2vw;
+    }
+    #arena > * span {
+        font-size: 3.2vw;
+    }
+    #project{
+        height: 800px;
+    }
+}
 @media screen and (min-width: 577px) and (max-width: 768px){
     .container h1{
         font-size: 13.5vw;

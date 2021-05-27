@@ -123,7 +123,7 @@ const snapshot = [
         
         display.querySelectorAll('div').forEach(box => box.style.borderColor = 'limegreen');
 
-        endtime.innerHTML = `<h1 style='font-size: 28px; color:limegreen; text-align: center'>COMING SOON</h1>`;
+        endtime.innerHTML = `<h1 style='font-size: 5vw; color:limegreen; text-align: center'>COMING SOON</h1>`;
     }else{
         msgBox.innerHTML = 'Projects loading...';
     
@@ -136,6 +136,8 @@ const snapshot = [
 let bool = false;
 window.addEventListener('scroll', () => {
     const element = document.querySelector('#project');
+    const dead = document.querySelector('.deadline');
+    const bound = dead.getBoundingClientRect();
     const navHeight = navbar.getBoundingClientRect().height;
     let position = element.offsetTop - navHeight;
     if(window.pageYOffset >= position && bool == false){
