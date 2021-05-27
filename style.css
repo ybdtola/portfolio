@@ -22,8 +22,10 @@ body{
     
 }
 header{
-    height: 100vh;
     width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    min-height: 100vh;
     /* background: url('./images/hero3.png') no-repeat 25% 100% fixed;
     background-size: 45%;
     background-blend-mode: overlay; */
