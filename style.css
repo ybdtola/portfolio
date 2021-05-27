@@ -77,6 +77,8 @@ a:active
     z-index: 999999;
     width: 100%;
     height: 56px;
+    max-height: 56px;
+    min-height: 56px;
 }
 div.banner{
     display: grid;

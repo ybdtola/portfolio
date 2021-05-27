@@ -19,6 +19,9 @@
         z-index: 999999;
         width: 100%;
         height: 56px;
+        height: 56px;
+        max-height: 56px;
+        min-height: 56px;
     }
     
     .navbar {
@@ -210,6 +213,12 @@ code h1{
     }
     #project{
         height: 800px;
+    }
+    #pt_container_canvas{
+        width: 100% !important;
+        height: 100vh !important;
+        min-height: 100vh !important;
+        max-height: 100vh !important;
     }
 }
 @media screen and (min-width: 577px) and (max-width: 768px){
