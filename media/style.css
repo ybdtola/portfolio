@@ -194,6 +194,13 @@ code h1{
     font-size: 6vw !important;
 }
 
+#pt_container_canvas{
+    width: 100% !important;
+    height: 100vh !important;
+    min-height: 100vh !important;
+    max-height: 100vh !important;
+}
+
 }
 
 @media screen and (min-width: 280px) and (max-width: 768px){
@@ -213,12 +220,6 @@ code h1{
     }
     #project{
         height: 800px;
-    }
-    #pt_container_canvas{
-        width: 100% !important;
-        height: 100vh !important;
-        min-height: 100vh !important;
-        max-height: 100vh !important;
     }
 }
 @media screen and (min-width: 577px) and (max-width: 768px){
