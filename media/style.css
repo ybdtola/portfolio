@@ -208,9 +208,9 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px){
-    body{
-        grid-template-rows: 100vh 100vh 100vh 50px;
-    }
+    /* body{
+        grid-template-rows: 1fr 100vh 100vh 50px;
+    } */
     .register{
         width: 50%;
     }
@@ -235,9 +235,9 @@
     } */
 }
 @media screen and (min-width: 576px) and (max-width: 768px){
-    body{
+    /* body{
         grid-template-rows: 100vh 150vh 100vh 50px;
-    }
+    } */
     header{
         /* background-size: 70%; */
         /* opacity: .99; */
@@ -262,9 +262,9 @@
 }
 
 @media screen and (min-width: 280px) and (max-width: 576px){
-    body{
+    /* body{
         grid-template-rows: 100vh 150vh 100vh 50px;
-    }
+    } */
     section#about article {
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 0;

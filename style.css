@@ -16,7 +16,7 @@ body{
                          "project project project project project project project project project project project project "
                          "footer footer footer footer footer footer footer footer footer footer footer footer ";
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 100vh 100vh 100vh 50px;
+    grid-template-rows: 1fr 1fr 1fr .1fr;
     overflow-x: hidden;
     position: relative;
     
