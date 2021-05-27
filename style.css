@@ -492,7 +492,7 @@ footer{
   }
   .profile-container{
     position: relative;
-    height: 90%;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
     /* justify-content: space-around; */
