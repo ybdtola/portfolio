@@ -138,8 +138,10 @@ window.addEventListener('scroll', () => {
     const element = document.querySelector('#project');
     const dead = document.querySelector('.deadline');
     const bound = dead.getBoundingClientRect();
-    const navHeight = navbar.getBoundingClientRect().height;
-    let position = element.offsetTop - navHeight;
+    // const navHeight = navbar.getBoundingClientRect().height;
+    const this_height = 100;
+    console.log(this_height);
+    let position = element.offsetTop - this_height;
     if(window.pageYOffset >= position && bool == false){
         countdownCaller();
         bool = true;
