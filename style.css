@@ -29,6 +29,7 @@ header{
     /* background: url('./images/hero3.png') no-repeat 25% 100% fixed;
     background-size: 45%;
     background-blend-mode: overlay; */
+    position: relative;
 }
 nav{
     background: transparent;
@@ -43,24 +44,24 @@ nav{
 }
 #pt_container_canvas{
     width: 100% !important;
-    height: 100vh !important;
-    min-height: 100vh !important;
-    max-height: 100vh !important;
+    height: 100% !important;
+    /* min-height: 100vh !important; */
+    /* max-height: 100vh !important; */
     position: absolute;
     left: 0;
-    top: 0;
+    top: 56.5px;
     /* top: 56px; */
     z-index: 99999;
 }
 #pt_container{
-    /* width: 100vw; */
-    /* height: 100vh !important; */
+    /* width: 100vw;
+    height: 100vh !important; */
     /* position: relative;
     left: 0;
     top: 0; */
     /* z-index: 2; */
-    position: absolute;
-    top: 56px;
+    /* position: relative;
+    top: 56px; */
 }
 
 
