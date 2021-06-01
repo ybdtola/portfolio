@@ -140,7 +140,6 @@ window.addEventListener('scroll', () => {
     const bound = dead.getBoundingClientRect();
     // const navHeight = navbar.getBoundingClientRect().height;
     const this_height = 100;
-    console.log(this_height);
     let position = element.offsetTop - this_height;
     if(window.pageYOffset >= position && bool == false){
         countdownCaller();
