@@ -23,8 +23,8 @@ body{
 }
 header{
     width: 100vw;
-    height: 100vh;
-    max-height: 100vh;
+    height: 500px;
+    /* max-height: 100vh; */
     min-height: 100vh;
     /* background: url('./images/hero3.png') no-repeat 25% 100% fixed;
     background-size: 45%;
@@ -88,6 +88,8 @@ div.banner{
     width: 100vw;
     place-items: center;
     color: #fff;
+    grid-auto-rows: minmax(100px, auto);
+    padding: 5rem 5vw;
 }
 .flex{
     margin-bottom: 20px;
@@ -98,6 +100,7 @@ p.typewriter{
     /* padding: 20px; */
     border-radius: 50px;
     /* margin-left: 8px; */
+    cursor: text;
     position: relative;
     min-width: 320px;
     max-width: 340px;
@@ -365,10 +368,11 @@ footer{
     max-width: 60vw;
     width: 600px;
     position: relative;
-    /* height: 450px; */
+    height: 450px;
     margin: 0 auto;
     /* max-height: 60vw; */
     bottom: 80px;
+    min-height: 100%;
 }
 .container h1{
     font-family: 'Rubik', sans-serif;
