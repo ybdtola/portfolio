@@ -77,8 +77,8 @@ window.addEventListener('load', () => {
         , 5000));
     
 
-const date = document.getElementById('date');
-date.innerHTML = new Date().getFullYear();
+// const date = document.getElementById('date');
+// date.innerHTML = new Date().getFullYear();
 
 const navToggle = document.querySelector('.menu-icons');
 const linksContainer = document.querySelector('.links-container');
@@ -100,7 +100,7 @@ const navbar = document.querySelector('nav');
 const toplink = document.querySelector('.top-link');
 
 window.addEventListener('scroll', () => {
-    const scrollHeight = window.pageYOffset;
+    const scrollHeight = window.scrollY;
     const navHeight = navbar.getBoundingClientRect().height;
     if(scrollHeight > navHeight){
         navbar.classList.add('fixed-nav');
